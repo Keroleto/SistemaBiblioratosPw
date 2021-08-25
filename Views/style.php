@@ -36,6 +36,5 @@
         section {
             position:relative;
             padding:20px;
-            padding: auto;
-        }
+         }
     </style>
