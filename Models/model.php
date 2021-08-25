@@ -11,5 +11,5 @@ class ResolverPágina
 
         return "views/modules/" . $nombreDelMódulo . ".php";
     }
-
+hgd
 }
