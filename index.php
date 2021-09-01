@@ -1,8 +1,14 @@
 <?php
-require_once "controllers/controller.php";
-require_once "models/model.php";
+    #Dice que el codigo del controller es fundamental para ejecutar el sistema
+    #Hace las clases tambien accesibles desde los demas archivos
+    require_once "controllers/controller.php";
+    require_once "models/model.php";
 
-$mvc = new MVController();
-$mvc -> template();
+    #Instancia la clase
+    $mvc = new MVController();
+    $mvc->template();
+
+
+
 
 ?>
