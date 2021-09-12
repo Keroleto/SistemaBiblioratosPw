@@ -1,15 +1,14 @@
 <?php
-
-class ResolverPágina
-{
-
-    public function resolver($nombreDelMódulo)
-    {
-        if (empty($nombreDelMódulo)) {
-            $nombreDelMódulo = "inicio";
+    #Resuelve el mapeo del nombre a la pagina
+    class ResolverPagina{
+        public function resolver($nombreModulo){
+            #Asumo que si esta vacio voy a inicio
+            if(empty($nombreModulo)){
+                $nombreModulo = "inicio";
+            }
+            return "views/modules/$nombreModulo.php";
         }
-
-        return "views/modules/" . $nombreDelMódulo . ".php";
     }
-hgd
-}
+
+
+?>

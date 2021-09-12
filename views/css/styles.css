@@ -1,0 +1,27 @@
+
+#inicio, #biblioratos,#contacto, #logueo, #nuevaCarpeta, #carpetas{
+    padding-top: 40px;
+    height: 80vh;
+}
+
+#logueo{
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+footer{
+    text-align: center;
+    background: rgb(248, 249, 250);
+    height: 90px;
+}
+
+#tablaFija{
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+fieldset{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 5px;
+}
